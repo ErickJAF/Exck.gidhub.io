@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white; /* Para cambiar el color del texto a blanco para que sea legible en el fondo negro */
+}
+
+nav {
+    background-color: #333;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10;
+    padding: 10;
+    font-size: 40px;
+    border: 2px solid #806A00;
+    margin-top: 0.5%;
+}
+
+li {
+    display: inline;
+    margin-right: 12%;
+    margin-left: 12%;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #333;
+    border: 2px solid #806A00;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+/* Estilo del logotipo */
+.logo {
+    margin-left: 2%; /* Agrega espacio a la derecha del logotipo */
+    margin-top: 0.5%;
+}
+
+.logo img {
+    width: 100px; /* Ajusta el tamaño del logotipo según tus necesidades */
+}
+.logo {
+    float: left;
+}
+footer {
+    margin-top: 2%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #806A00;
+}

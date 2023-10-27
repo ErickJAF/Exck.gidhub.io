@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-color: black;
+    color: white; /* Para cambiar el color del texto a blanco para que sea legible en el fondo negro */
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #333;
+    border: 2px solid #806A00;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-block: 7%;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin: 10px 0;
+    margin-right: 22px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #806A00;
+    border-radius: 3px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #806A00;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #806A00;
+}
+/* Estilo del logotipo */
+.logo {
+    margin-left: 2%; /* Agrega espacio a la derecha del logotipo */
+    margin-top: 0.5%;
+}
+
+.logo img {
+    width: 100px; /* Ajusta el tamaño del logotipo según tus necesidades */
+}
